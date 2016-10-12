@@ -1,0 +1,25 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project 'SitaWareWeb'" />
+    <option name="defaultScopeName" value="Project 'SitaWareWeb'" />
+    <option name="SEARCH_SCOPE" value="Project 'SitaWareWeb'" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.test.js</mask>
+      <mask>pom.xml</mask>
+      <mask>*.html</mask>
+      <mask>*.gradle</mask>
+      <mask>*.ts|*.js</mask>
+      <mask>*.js</mask>
+      <mask>*.java</mask>
+      <mask>*.scala</mask>
+      <mask>*.ts</mask>
+      <mask>*.scss</mask>
+    </recentFileMasks>
+  </component>
+</application>

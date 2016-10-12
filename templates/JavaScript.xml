@@ -1,0 +1,42 @@
+<templateSet group="JavaScript">
+  <template name="swdesc" value="describe('$DESCRIPTION$', function() {&#10;  $END$&#10;});" description="Jamine describe block" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="swit" value="it('should $SOMETHING$', function() {&#10;  $END$&#10;});" description="Jasmine it block" toReformat="false" toShortenFQNames="true">
+    <variable name="SOMETHING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="swngctrl" value="angular.module('sw$module$').controller('sw$name$', function ($scope) {&#10;  $end$    &#10;});" description="Creates an angular controller" toReformat="false" toShortenFQNames="true">
+    <variable name="module" expression="" defaultValue="swCop" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="swMyNewController" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="swngdirective" value="angular.module('sw$module$').directive('sw$name$', function ($deps$) {&#10;  return {&#10;    restrict: 'E',      &#10;    scope: {&#10;      $someAttribute$: '='&#10;    },&#10;    replace: true,&#10;    templateUrl: 'apps/$app$/views/' + sitaware.browserLanguage + '/$template$.html',&#10;    link: function (scope, element) {&#10;      $END$&#10;    }&#10;  };&#10;});" description="Creates a widget directive" toReformat="false" toShortenFQNames="true">
+    <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="deps" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="someAttribute" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="app" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="template" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="swtest" value="(function () {&#10;  'use strict';&#10;  describe('$description$', function () {&#10;    var $someService$;&#10;&#10;    beforeEach(module('sw$module$'));&#10;&#10;    beforeEach(inject(function (sw$someService$) {&#10;      $someService$ = sw$someService$;&#10;    }));&#10;&#10;    describe('$someService$ $doStuff$', function() {&#10;      it('should $END$)  &#10;    });    &#10;  });&#10;}());" description="Jasmine angular test" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="Some description" alwaysStopAt="true" />
+    <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="someService" expression="" defaultValue="someService" alwaysStopAt="true" />
+    <variable name="doStuff" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
