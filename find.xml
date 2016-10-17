@@ -3,6 +3,7 @@
     <option name="customScope" value="Project 'SitaWareWeb'" />
     <option name="defaultScopeName" value="Project 'SitaWareWeb'" />
     <option name="SEARCH_SCOPE" value="Project 'SitaWareWeb'" />
+    <option name="FILE_MASK" value="*.scala" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -17,9 +18,9 @@
       <mask>*.ts|*.js</mask>
       <mask>*.js</mask>
       <mask>*.java</mask>
-      <mask>*.scala</mask>
       <mask>*.ts</mask>
       <mask>*.scss</mask>
+      <mask>*.scala</mask>
     </recentFileMasks>
   </component>
 </application>
