@@ -3,6 +3,7 @@
     <option name="customScope" value="Project 'SitaWareWeb'" />
     <option name="defaultScopeName" value="Project 'SitaWareWeb'" />
     <option name="SEARCH_SCOPE" value="Project 'SitaWareWeb'" />
+    <option name="FILE_MASK" value="*.scala" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
