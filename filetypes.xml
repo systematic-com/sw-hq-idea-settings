@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping ext="done" type="PLAIN_TEXT" />
       <mapping ext="1927067379" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping pattern="UnitStructureController" type="TypeScript" />
     </extensionMap>
