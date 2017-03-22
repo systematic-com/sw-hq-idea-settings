@@ -15,7 +15,6 @@
       <mask>*.test.js</mask>
       <mask>pom.xml</mask>
       <mask>*.html</mask>
-      <mask>*.gradle</mask>
       <mask>*.ts|*.js</mask>
       <mask>*.java</mask>
       <mask>*.scss</mask>
@@ -23,6 +22,7 @@
       <mask>*.ts</mask>
       <mask>*.js</mask>
       <mask>*.js,*.ts</mask>
+      <mask>*.gradle</mask>
     </recentFileMasks>
   </component>
 </application>
