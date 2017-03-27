@@ -1,0 +1,14 @@
+<templateSet group="Typescript">
+  <template name="desc" value="describe('$DESCRIPTION$', () =&gt; {&#10;  $END$&#10;});" description="Typescript jasmine description block" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('should $SOMETHING$', () =&gt; {&#10;  $END$&#10;});" description="Jasmine it typescript block" toReformat="false" toShortenFQNames="true">
+    <variable name="SOMETHING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
