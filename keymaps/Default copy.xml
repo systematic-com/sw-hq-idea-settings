@@ -2,6 +2,9 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="MakeModule">
+    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
