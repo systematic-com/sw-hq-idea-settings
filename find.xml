@@ -17,12 +17,21 @@
       <mask>pom.xml</mask>
       <mask>*.html</mask>
       <mask>*.ts|*.js</mask>
-      <mask>*.java</mask>
       <mask>*.scss</mask>
       <mask>*.scala</mask>
       <mask>*.ts</mask>
       <mask>*.js</mask>
       <mask>*.js,*.ts</mask>
+      <mask>*.ja</mask>
+      <mask>*.jav</mask>
+      <mask>*.java</mask>
+      <mask>*.</mask>
+      <mask>*</mask>
+      <mask>*g</mask>
+      <mask>*gr</mask>
+      <mask>*grad</mask>
+      <mask>*gradl</mask>
+      <mask>*gradle</mask>
       <mask>*.gradle</mask>
     </recentFileMasks>
   </component>
