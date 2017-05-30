@@ -5,6 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -16,7 +17,6 @@
       <mask>pom.xml</mask>
       <mask>*.html</mask>
       <mask>*.ts|*.js</mask>
-      <mask>*.scss</mask>
       <mask>*.scala</mask>
       <mask>*.ts</mask>
       <mask>*.js</mask>
@@ -24,14 +24,18 @@
       <mask>*.ja</mask>
       <mask>*.jav</mask>
       <mask>*.java</mask>
-      <mask>*.</mask>
-      <mask>*</mask>
       <mask>*g</mask>
       <mask>*gr</mask>
       <mask>*grad</mask>
       <mask>*gradl</mask>
       <mask>*gradle</mask>
       <mask>*.gradle</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.s</mask>
+      <mask>*.sc</mask>
+      <mask>*.scs</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
