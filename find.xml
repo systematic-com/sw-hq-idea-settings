@@ -5,7 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts" />
+    <option name="FILE_MASK" value="*.*" />
     <recentFileMasks>
       <mask>*g</mask>
       <mask>*gr</mask>
@@ -29,14 +29,14 @@
       <mask>*.h</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
-      <mask>*</mask>
-      <mask>*.*</mask>
       <mask>*.</mask>
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.sca</mask>
       <mask>*.scala</mask>
       <mask>*.ts</mask>
+      <mask>*</mask>
+      <mask>*.*</mask>
     </recentFileMasks>
   </component>
 </application>
