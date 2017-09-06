@@ -5,7 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*gradl</mask>
       <mask>*gradle</mask>
@@ -29,7 +29,6 @@
       <mask>*.,</mask>
       <mask>*.js</mask>
       <mask>*.s</mask>
-      <mask>*.ts</mask>
       <mask>*.sc</mask>
       <mask>*.sca</mask>
       <mask>*.scal</mask>
@@ -37,6 +36,7 @@
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.*</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
